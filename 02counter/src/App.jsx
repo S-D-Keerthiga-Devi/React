@@ -16,7 +16,10 @@ function App() {
     }
     else{
       counter = counter + 1;
-      setCounter(counter)
+      setCounter((prevCounter) => prevCounter + 1)
+      setCounter((prevCounter) => prevCounter + 1)
+      setCounter((prevCounter) => prevCounter + 1)
+      // setCounter((counter) => counter + 1)
     }
   }
 
